@@ -1,0 +1,2015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ByteUpLift: Professional software training & development solutions. Learn Java, Python, Data Analytics, AI, Web & Mobile Development. Expert-led courses with hands-on projects.">
+    <meta name="keywords" content="software training, coding bootcamp, web development, mobile app development, Java programming, Python programming, data analytics, AI training, DevOps, career training, tech courses">
+    <meta name="author" content="ByteUpLift Technologies">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#FF6D1F">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="ByteUpLift | Software Training & Development Solutions">
+    <meta property="og:description" content="Transform your tech career with expert-led software training and professional development solutions. Industry-ready skills for tomorrow's jobs.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://byteuplift.com">
+    <meta property="og:image" content="https://byteuplift.com/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="ByteUpLift">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ByteUpLift | Software Training & Development Solutions">
+    <meta name="twitter:description" content="Launch your tech career with expert training in software development, data science, and AI.">
+    <meta name="twitter:image" content="https://byteuplift.com/images/twitter-card.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://byteuplift.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Preconnect for External Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "ByteUpLift Technologies",
+        "url": "https://byteuplift.com",
+        "logo": "https://byteuplift.com/logo.png",
+        "description": "Professional software training and development solutions company providing industry-ready tech education and custom software development services.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Digital City",
+            "addressRegion": "Tech Valley",
+            "postalCode": "10001",
+            "streetAddress": "Silicon Street"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-888-TECH-LIFT",
+            "contactType": "Customer Service",
+            "email": "contact@byteuplift.com",
+            "availableLanguage": ["English"]
+        },
+        "sameAs": [
+            "https://facebook.com/byteuplift",
+            "https://twitter.com/byteuplift",
+            "https://linkedin.com/company/byteuplift",
+            "https://instagram.com/byteuplift",
+            "https://github.com/byteuplift"
+        ],
+        "offers": {
+            "@type": "AggregateOffer",
+            "offerCount": "6",
+            "lowPrice": "499",
+            "highPrice": "1999",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+    
+    <title>ByteUpLift | Software Training & Development Solutions | Tech Career Launch Platform</title>
+    
+    <style>
+        /* ========== CSS RESET & BASE VARIABLES ========== */
+        :root {
+            --primary: #FF6D1F;
+            --primary-dark: #E05A15;
+            --primary-light: #FFF0E6;
+            --secondary: #F5E7C6;
+            --accent: #222222;
+            --accent2: #1a1a1a;
+            --light: #FAF3E1;
+            --dark: #222222;
+            --gray: #5a5a5a;
+            --gray-light: #e0e0e0;
+            --gray-lighter: #f8f8f8;
+            --success: #22c55e;
+            --warning: #FF6D1F;
+            --error: #ef4444;
+            --card-bg: #FFFFFF;
+            --border-radius: 12px;
+            --border-radius-lg: 16px;
+            --border-radius-sm: 8px;
+            --box-shadow: 0 10px 30px rgba(34, 34, 34, 0.08);
+            --box-shadow-lg: 0 20px 40px rgba(34, 34, 34, 0.12);
+            --box-shadow-sm: 0 4px 12px rgba(34, 34, 34, 0.05);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --fast-transition: all 0.2s ease;
+            --container-padding: 1rem;
+            --header-height: 70px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 100%;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding-top: var(--header-height);
+        }
+
+        /* ========== TYPOGRAPHY ========== */
+        h1, h2, h3, h4, h5 {
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2.25rem, 5vw, 3.5rem);
+            font-weight: 800;
+            color: var(--dark);
+        }
+
+        h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            position: relative;
+            color: var(--dark);
+        }
+
+        h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(1.375rem, 3vw, 1.75rem);
+            color: var(--dark);
+        }
+
+        h4 {
+            font-size: clamp(1.125rem, 2.5vw, 1.375rem);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--gray);
+            font-size: clamp(0.9375rem, 2vw, 1.0625rem);
+            line-height: 1.7;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        /* ========== SKIP TO CONTENT ========== */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 0 0 4px 0;
+            z-index: 1001;
+            transition: top 0.3s;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        /* ========== HEADER & NAVIGATION ========== */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(250, 243, 225, 0.98);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(245, 231, 198, 0.5);
+            box-shadow: 0 4px 20px rgba(34, 34, 34, 0.05);
+            z-index: 1000;
+            height: var(--header-height);
+        }
+
+        .header-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--container-padding);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: var(--header-height);
+        }
+
+        .logo {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(1.375rem, 4vw, 1.75rem);
+            font-weight: 800;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            z-index: 1002;
+        }
+
+        .logo-img {
+            height: 40px;
+            width: auto;
+        }
+
+        .logo span {
+            color: var(--dark);
+        }
+
+        /* Desktop Navigation */
+        .nav-links {
+            display: flex;
+            gap: clamp(1.5rem, 3vw, 2rem);
+            align-items: center;
+        }
+
+        .nav-links a {
+            font-weight: 600;
+            font-size: clamp(0.9375rem, 2vw, 1rem);
+            color: var(--dark);
+            position: relative;
+            padding: 8px 0;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            bottom: 0;
+            left: 0;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a:focus::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover,
+        .nav-links a:focus {
+            color: var(--primary);
+            outline: none;
+        }
+
+        /* Mobile Menu Button */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--primary);
+            cursor: pointer;
+            padding: 8px;
+            z-index: 1002;
+            width: 44px;
+            height: 44px;
+            border-radius: 4px;
+            transition: var(--transition);
+        }
+
+        .mobile-menu-btn:hover,
+        .mobile-menu-btn:focus {
+            background: var(--primary-light);
+            outline: none;
+        }
+
+        /* Mobile Menu */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: min(320px, 85vw);
+            height: 100vh;
+            background: var(--light);
+            padding: calc(var(--header-height) + 2rem) 2rem 2rem;
+            box-shadow: -10px 0 40px rgba(34, 34, 34, 0.15);
+            transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 999;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        .mobile-menu a {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--dark);
+            padding: 12px 0;
+            border-bottom: 1px solid var(--secondary);
+            display: block;
+            transition: var(--transition);
+        }
+
+        .mobile-menu a:hover,
+        .mobile-menu a:focus {
+            color: var(--primary);
+            padding-left: 8px;
+            outline: none;
+        }
+
+        .mobile-menu a:last-child {
+            border-bottom: none;
+        }
+
+        /* Mobile Menu Overlay */
+        .mobile-menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(34, 34, 34, 0.5);
+            backdrop-filter: blur(2px);
+            z-index: 998;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-menu-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* ========== BUTTONS ========== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 0.9375rem;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            min-height: 48px;
+            white-space: nowrap;
+            margin: 5px;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+            transition: var(--transition);
+            z-index: -1;
+        }
+
+        .btn:hover::before,
+        .btn:focus::before {
+            width: 100%;
+        }
+
+        .btn:hover,
+        .btn:focus {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(255, 109, 31, 0.3);
+            outline: none;
+        }
+
+        .btn i {
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover i,
+        .btn:focus i {
+            transform: translateX(4px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .btn-secondary:hover::before,
+        .btn-secondary:focus::before {
+            width: 100%;
+        }
+
+        .btn-disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        .btn-disabled:hover,
+        .btn-disabled:focus {
+            transform: none;
+            box-shadow: none;
+        }
+
+        /* ========== LAYOUT UTILITIES ========== */
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--container-padding);
+        }
+
+        section {
+            padding: clamp(4rem, 8vw, 6.25rem) 0;
+            position: relative;
+        }
+
+        /* ========== HERO SECTION ========== */
+        .hero {
+            background: linear-gradient(135deg, rgba(255, 109, 31, 0.03) 0%, rgba(245, 231, 198, 0.1) 100%);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: min(600px, 100vw);
+            height: min(600px, 100vw);
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(255, 109, 31, 0.08) 0%, rgba(245, 231, 198, 0.15) 100%);
+            top: -30%;
+            right: -20%;
+            z-index: 0;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-text {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-text h1 {
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-text p {
+            font-size: clamp(1.0625rem, 2.5vw, 1.1875rem);
+            margin-bottom: 2rem;
+        }
+
+        .hero-image {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-image img {
+            width: 100%;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--box-shadow-lg);
+            border: 8px solid var(--secondary);
+            transition: var(--transition);
+        }
+
+        .hero-image img:hover {
+            transform: scale(1.02);
+        }
+
+        /* ========== SECTION HEADERS ========== */
+        .section-header {
+            text-align: center;
+            margin-bottom: clamp(2.5rem, 6vw, 4rem);
+        }
+
+        .section-header h2 {
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            width: clamp(60px, 10vw, 100px);
+            height: 4px;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            bottom: -0.75rem;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+
+        .section-header p {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: clamp(1.0625rem, 2.5vw, 1.1875rem);
+        }
+
+        /* ========== COURSES SECTION ========== */
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .course-card {
+            background: var(--card-bg);
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            border: 1px solid var(--secondary);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .course-card:hover,
+        .course-card:focus-within {
+            transform: translateY(-8px);
+            box-shadow: var(--box-shadow-lg);
+            border-color: var(--primary);
+        }
+
+        .course-header {
+            padding: 1.5rem 1.5rem 1rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .course-header::before {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            top: -75px;
+            right: -75px;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        .course-header h3 {
+            color: white;
+            margin-bottom: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .course-body {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .course-body p {
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: auto;
+        }
+
+        .tech-tag {
+            background: rgba(255, 109, 31, 0.1);
+            color: var(--primary);
+            padding: 6px 12px;
+            border-radius: 50px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            border: 1px solid rgba(255, 109, 31, 0.2);
+            transition: var(--fast-transition);
+        }
+
+        .tech-tag:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 109, 31, 0.2);
+        }
+
+        /* ========== UPCOMING BATCHES ========== */
+        .registration-section {
+            margin-top: 3rem;
+        }
+
+        .registration-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .registration-bar {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            padding: 1.25rem;
+            box-shadow: var(--box-shadow);
+            border: 1px solid var(--secondary);
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            transition: var(--transition);
+        }
+
+        .registration-bar:hover,
+        .registration-bar:focus-within {
+            transform: translateY(-5px);
+            box-shadow: var(--box-shadow-lg);
+            border-color: var(--primary);
+        }
+
+        .course-info {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .course-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .course-details h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            color: var(--dark);
+            margin-bottom: 0.25rem;
+        }
+
+        .course-details p {
+            margin: 0;
+            color: var(--gray);
+            font-size: 0.9375rem;
+        }
+
+        .course-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            padding: 1rem 0;
+            border-top: 1px solid var(--gray-light);
+            border-bottom: 1px solid var(--gray-light);
+        }
+
+        .start-date, .days-left {
+            display: flex;
+            flex-direction: column;
+            min-width: 120px;
+        }
+
+        .meta-label {
+            font-size: 0.8125rem;
+            color: var(--gray);
+            margin-bottom: 0.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .meta-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .days-left .meta-value {
+            color: var(--primary);
+        }
+
+        .days-left.expired .meta-value {
+            color: var(--error);
+        }
+
+        .registration-action {
+            text-align: center;
+        }
+
+        /* ========== SERVICES SECTION ========== */
+        .services {
+            background: linear-gradient(135deg, rgba(255, 109, 31, 0.03) 0%, rgba(245, 231, 198, 0.1) 100%);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+            gap: 1.5rem;
+        }
+
+        .service-card {
+            background: var(--card-bg);
+            padding: 2rem 1.5rem;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            border: 1px solid var(--secondary);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-card:hover,
+        .service-card:focus-within {
+            transform: translateY(-8px);
+            box-shadow: var(--box-shadow-lg);
+            border-color: var(--primary);
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--dark) 100%);
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            color: white;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .service-card:hover .service-icon {
+            transform: rotate(15deg) scale(1.1);
+        }
+
+        .service-card h3 {
+            margin-bottom: 1rem;
+        }
+
+        .service-card p {
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        /* Service color variations */
+        .service-card:nth-child(odd) .service-icon {
+            background: linear-gradient(135deg, var(--primary), #FF8B4A);
+        }
+
+        .service-card:nth-child(even) .service-icon {
+            background: linear-gradient(135deg, #222222, #444444);
+        }
+
+        /* ========== CONTACT SECTION ========== */
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+        }
+
+        .contact-info h3 {
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-details {
+            margin-top: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--dark) 100%);
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.25rem;
+            margin-right: 1rem;
+            flex-shrink: 0;
+            transition: var(--transition);
+        }
+
+        .contact-item:hover .contact-icon {
+            transform: rotate(15deg) scale(1.1);
+        }
+
+        .contact-form {
+            background: var(--secondary);
+            padding: 2rem;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--box-shadow);
+            border: 1px solid var(--gray-light);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--dark);
+            font-size: 0.9375rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--gray-light);
+            border-radius: var(--border-radius);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9375rem;
+            transition: var(--transition);
+            background: white;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(255, 109, 31, 0.15);
+        }
+
+        textarea.form-control {
+            min-height: 140px;
+            resize: vertical;
+        }
+
+        select.form-control {
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 16px;
+            padding-right: 40px;
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 4rem 0 2rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-logo {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 1.25rem;
+            display: block;
+        }
+
+        .footer-links h4 {
+            color: white;
+            margin-bottom: 1.25rem;
+            font-size: 1.125rem;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .footer-links ul {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .footer-links a {
+            color: #d1d5db;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover,
+        .footer-links a:focus {
+            color: var(--primary);
+            transform: translateX(5px);
+            outline: none;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.125rem;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover,
+        .social-links a:focus {
+            background: var(--primary);
+            transform: translateY(-5px);
+            outline: none;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #9ca3af;
+            font-size: 0.875rem;
+        }
+
+        .copyright a {
+            color: #9ca3af;
+            text-decoration: underline;
+        }
+
+        .copyright a:hover,
+        .copyright a:focus {
+            color: var(--primary);
+        }
+
+        /* ========== NOTIFICATION ========== */
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            left: 20px;
+            background: var(--success);
+            color: white;
+            padding: 1rem 1.25rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow-lg);
+            transform: translateY(100px);
+            opacity: 0;
+            transition: var(--transition);
+            z-index: 1001;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .notification.error {
+            background: var(--error);
+        }
+
+        .notification.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .notification i {
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        /* ========== ANIMATIONS ========== */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .fa-spin {
+            animation: spin 1s linear infinite;
+        }
+
+        /* ========== DEVELOPER CONSOLE ========== */
+        .dev-console {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--dark);
+            color: white;
+            border-radius: 12px 12px 0 0;
+            box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+            display: none;
+        }
+
+        .dev-console-header {
+            padding: 1rem;
+            background: var(--accent);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .dev-console-content {
+            padding: 1.5rem;
+            max-height: 400px;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .dev-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: var(--border-radius-sm);
+            cursor: pointer;
+            font-size: 0.875rem;
+            margin: 4px 0;
+            width: 100%;
+            transition: var(--transition);
+            text-align: left;
+        }
+
+        .dev-btn:hover,
+        .dev-btn:focus {
+            background: var(--primary-dark);
+            outline: none;
+        }
+
+        .dev-btn.remove {
+            background: #dc2626;
+        }
+
+        .dev-btn.remove:hover,
+        .dev-btn.remove:focus {
+            background: #b91c1c;
+        }
+
+        .dev-btn.add {
+            background: var(--success);
+        }
+
+        .dev-btn.add:hover,
+        .dev-btn.add:focus {
+            background: #16a34a;
+        }
+
+        /* ========== MEDIA QUERIES ========== */
+
+        /* Tablet and above */
+        @media (min-width: 768px) {
+            :root {
+                --container-padding: 2rem;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 4rem;
+            }
+
+            .courses-grid,
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .registration-bar {
+                flex-direction: row;
+                align-items: center;
+                gap: 2rem;
+            }
+
+            .course-info {
+                flex: 1;
+            }
+
+            .course-meta {
+                flex: 0 0 auto;
+                padding: 0;
+                border: none;
+                border-right: 1px solid var(--gray-light);
+                padding-right: 2rem;
+                margin-right: 2rem;
+            }
+
+            .contact-container {
+                grid-template-columns: 1fr 1fr;
+                gap: 4rem;
+            }
+
+            .footer-content {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 3rem;
+            }
+
+            .notification {
+                left: auto;
+                width: auto;
+                max-width: 400px;
+            }
+        }
+
+        /* Desktop */
+        @media (min-width: 1024px) {
+            :root {
+                --container-padding: 3rem;
+            }
+
+            .mobile-menu-btn {
+                display: none;
+            }
+
+            .mobile-menu,
+            .mobile-menu-overlay {
+                display: none !important;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr 1fr;
+                gap: 5rem;
+            }
+
+            .hero-text {
+                text-align: left;
+            }
+
+            .courses-grid,
+            .services-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .nav-links {
+                display: flex !important;
+            }
+        }
+
+        /* Mobile Navigation */
+        @media (max-width: 1023px) {
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+        }
+
+        /* Small Mobile */
+        @media (max-width: 480px) {
+            :root {
+                --container-padding: 1rem;
+            }
+
+            section {
+                padding: 3rem 0;
+            }
+
+            .hero {
+                padding: 2rem 0;
+            }
+
+            .course-meta {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .start-date, .days-left {
+                min-width: auto;
+                width: 100%;
+            }
+
+            .contact-form {
+                padding: 1.5rem;
+            }
+
+            .footer-content {
+                gap: 2rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            header, footer, .mobile-menu-btn, .dev-console, .notification, .btn {
+                display: none !important;
+            }
+
+            body {
+                padding-top: 0;
+                background: white;
+                color: black;
+                font-size: 12pt;
+            }
+
+            section {
+                padding: 20pt 0;
+                page-break-inside: avoid;
+            }
+
+            a {
+                text-decoration: underline;
+                color: black;
+            }
+
+            .hero::before {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body itemscope itemtype="https://schema.org/WebPage">
+    
+
+    <!-- Header with Fixed Navigation -->
+    <header role="banner" aria-label="Main header">
+        <div class="header-container">
+            <nav aria-label="Main navigation">
+                <a href="/" class="logo" aria-label="ByteUpLift Home">
+                    <img src="./logo-removebg-preview (1) (1).png" alt="ByteUpLift Logo" class="logo-img" width="150" height="40" loading="eager">
+                    <span itemprop="name">ByteUpLift</span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-links" role="menubar" aria-label="Main menu">
+                    <li role="none"><a href="#home" role="menuitem" aria-label="Go to Home section">Home</a></li>
+                    <li role="none"><a href="#courses" role="menuitem" aria-label="View our courses">Courses</a></li>
+                    <li role="none"><a href="#upcoming" role="menuitem" aria-label="See upcoming batches">Upcoming Batches</a></li>
+                    <li role="none"><a href="#services" role="menuitem" aria-label="Our development services">Services</a></li>
+                    <li role="none"><a href="#contact" role="menuitem" aria-label="Contact us">Contact</a></li>
+                </ul>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobileMenu">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </nav>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay" aria-hidden="true"></div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation menu" aria-hidden="true">
+            <a href="#home" aria-label="Go to Home section">Home</a>
+            <a href="#courses" aria-label="View our courses">Courses</a>
+            <a href="#upcoming" aria-label="See upcoming batches">Upcoming Batches</a>
+            <a href="#services" aria-label="Our development services">Services</a>
+            <a href="#contact" aria-label="Contact us">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 id="hero-title">Launch Your Tech Career with Expert Training</h1>
+                        <p itemprop="description">At ByteUpLift, we transform aspiring developers into industry-ready professionals. Master cutting-edge technologies through hands-on training while we build innovative software solutions for businesses worldwide.</p>
+                        <div class="hero-actions">
+                            <a href="#courses" class="btn" aria-label="Explore our courses">Start Your Journey <i class="fas fa-rocket" aria-hidden="true"></i></a>
+                            <a href="#contact" class="btn btn-secondary" aria-label="Contact us for more information">Contact Us <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img 
+                            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80" 
+                            alt="Software developers collaborating in a modern office environment" 
+                            width="800" 
+                            height="500" 
+                            loading="eager" 
+                            itemprop="image"
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="courses" id="courses" aria-labelledby="courses-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="courses-title">Future-Ready Courses</h2>
+                    <p>Industry-aligned training programs designed to transform new graduates into high-demand tech professionals</p>
+                </div>
+                <div class="courses-grid" id="coursesGrid" role="list">
+                    <!-- Courses loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Batches Section -->
+        <section class="courses" id="upcoming" aria-labelledby="upcoming-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="upcoming-title">Upcoming Course Batches</h2>
+                    <p>Limited seats available for our upcoming batches. Secure your spot before registration closes!</p>
+                </div>
+                <div class="registration-section">
+                    <div class="registration-bars" id="registrationBars" role="list">
+                        <!-- Registration bars loaded via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="services-title">Our Development Services</h2>
+                    <p>End-to-end software solutions tailored to your business needs</p>
+                </div>
+                <div class="services-grid" id="servicesGrid" role="list">
+                    <!-- Services loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="contact-title">Get In Touch</h2>
+                    <p>Ready to elevate your career or transform your business with technology?</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Connect With Our Team</h3>
+                        <p>Whether you're a recent graduate looking to upskill or a business seeking custom software solutions, our experts are here to guide you. We respond to all inquiries within 24 hours.</p>
+                        <div class="contact-details">
+                            <div class="contact-item" itemscope itemtype="https://schema.org/ContactPoint">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4>Innovation Hub</h4>
+                                    <p itemprop="address">Tech Valley, Silicon Street, Digital City 10001</p>
+                                </div>
+                            </div>
+                            <div class="contact-item" itemscope itemtype="https://schema.org/ContactPoint">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4>Call Us</h4>
+                                    <p itemprop="telephone">+1 (888) TECH-LIFT</p>
+                                </div>
+                            </div>
+                            <div class="contact-item" itemscope itemtype="https://schema.org/ContactPoint">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4>Email Us</h4>
+                                    <p itemprop="email">contact@byteuplift.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm" aria-labelledby="contact-title">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Enter your full name" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" class="form-control" placeholder="Enter your email address" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Interest</label>
+                                <select id="service" class="form-control" required aria-required="true">
+                                    <option value="" disabled selected>Select your interest</option>
+                                    <option value="training">Tech Training & Courses</option>
+                                    <option value="web-dev">Website Development</option>
+                                    <option value="mobile-dev">Mobile App Development</option>
+                                    <option value="desktop">Desktop Applications</option>
+                                    <option value="ai">Agentic AI Solutions</option>
+                                    <option value="analytics">Data Analytics Dashboards</option>
+                                    <option value="data-eng">Data Engineering Projects</option>
+                                    <option value="devops">DevOps Implementation</option>
+                                    <option value="other">Other Inquiry</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" class="form-control" placeholder="Tell us about your goals, project, or questions..." required aria-required="true" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo" aria-label="Website footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="/" class="footer-logo" aria-label="ByteUpLift Home">ByteUpLift</a>
+                    <p>Transforming tech careers and businesses through cutting-edge training and innovative software solutions.</p>
+                    
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" aria-label="Go to Home section"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#courses" aria-label="View our courses"><i class="fas fa-chevron-right"></i> Courses</a></li>
+                        <li><a href="#upcoming" aria-label="See upcoming batches"><i class="fas fa-chevron-right"></i> Upcoming Batches</a></li>
+                        <li><a href="#services" aria-label="Our development services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#contact" aria-label="Contact us"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Development Services</h4>
+                    <ul>
+                        <li><a href="#services" aria-label="Website development services"><i class="fas fa-globe"></i> Website Development</a></li>
+                        <li><a href="#services" aria-label="Data analytics dashboards"><i class="fas fa-chart-line"></i> Data Analytics Dashboards</a></li>
+                        <li><a href="#services" aria-label="Data engineering projects"><i class="fas fa-database"></i> Data Engineering Projects</a></li>
+                        <li><a href="#services" aria-label="DevOps implementation"><i class="fas fa-cogs"></i> DevOps Implementation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> ByteUpLift Technologies. All rights reserved. | 
+                   <a href="/privacy" aria-label="Privacy Policy">Privacy Policy</a> | 
+                   <a href="/terms" aria-label="Terms of Service">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Developer Console -->
+    <div class="dev-console" id="devConsole">
+        <div class="dev-console-header" onclick="toggleDevConsole()" role="button" aria-expanded="false" aria-controls="devConsoleContent">
+            <h4>Developer Console</h4>
+            <i class="fas fa-chevron-up" id="devConsoleToggle"></i>
+        </div>
+        <div class="dev-console-content" id="devConsoleContent">
+            <h4>Manage Upcoming Batches</h4>
+            <button class="dev-btn add" onclick="addAllCoursesToUpcoming()">
+                <i class="fas fa-plus"></i> Add All Courses to Upcoming
+            </button>
+            <button class="dev-btn remove" onclick="clearAllUpcomingCourses()">
+                <i class="fas fa-trash"></i> Clear All Upcoming Courses
+            </button>
+            <h4 style="margin-top: 20px;">Individual Course Management</h4>
+            <div id="courseManagementButtons"></div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification" id="notification" role="alert" aria-live="polite" aria-atomic="true">
+        <i class="fas fa-check-circle"></i>
+        <p id="notificationText">Your message has been sent successfully!</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // EmailJS Configuration
+        const EMAILJS_CONFIG = {
+            PUBLIC_KEY: 'TtQ7yZz9qvl4FMGhm',
+            SERVICE_ID: 'service_y7aa8vq',
+            TEMPLATE_ID: 'template_dpvs0lj'
+        };
+
+        // Data
+        const courses = [
+            {
+                id: 1,
+                title: "Java Full Stack Development",
+                description: "Master enterprise-grade full-stack development using Java ecosystem. Build scalable web applications with modern frameworks and microservices architecture.",
+                tech: ["Java 17", "Spring Boot", "React.js", "PostgreSQL", "Docker", "AWS"],
+                icon: "fab fa-java",
+                colorClass: "java-course"
+            },
+            {
+                id: 2,
+                title: "Python Full Stack Development",
+                description: "Become a versatile Python developer. Learn to build dynamic web applications, APIs, and data-driven solutions with Python's powerful ecosystem.",
+                tech: ["Python 3", "Django", "FastAPI", "React.js", "MongoDB", "Celery"],
+                icon: "fab fa-python",
+                colorClass: "python-course"
+            },
+            {
+                id: 3,
+                title: "Data Analytics & Visualization",
+                description: "Transform raw data into actionable insights. Master data analysis, statistical modeling, and create compelling visualizations for business intelligence.",
+                tech: ["Python", "SQL", "Pandas", "Tableau", "Power BI", "ML Basics"],
+                icon: "fas fa-chart-bar",
+                colorClass: "data-analytics-course"
+            },
+            {
+                id: 4,
+                title: "Agentic AI Systems",
+                description: "Build autonomous AI agents that can reason, plan, and execute complex tasks. Learn to create intelligent systems that work independently.",
+                tech: ["Python", "LangChain", "OpenAI API", "Vector DBs", "AutoGen", "CrewAI"],
+                icon: "fas fa-robot",
+                colorClass: "agentic-ai-course"
+            },
+            {
+                id: 5,
+                title: "DSA with Python",
+                description: "Master fundamental data structures and algorithms using Python. Optimize code performance and ace technical interviews at top tech companies.",
+                tech: ["Python", "Algorithms", "Data Structures", "LeetCode", "System Design", "Big O"],
+                icon: "fas fa-sitemap",
+                colorClass: "dsa-python-course"
+            },
+            {
+                id: 6,
+                title: "DSA with Java",
+                description: "Comprehensive data structures and algorithms mastery using Java. Focus on enterprise-level problem-solving and optimization techniques.",
+                tech: ["Java", "Collections", "Algorithms", "Design Patterns", "Multithreading", "JVM"],
+                icon: "fas fa-project-diagram",
+                colorClass: "dsa-java-course"
+            }
+        ];
+
+        const courseRegistrations = [
+            {
+                id: 1,
+                courseId: 1,
+                startDate: "2026-01-15",
+                registrationDeadline: "2026-01-06",
+                icon: "fab fa-java",
+                colorClass: "java-course",
+                punchLine: "Transform into an enterprise Java developer"
+            },
+            {
+                id: 2,
+                courseId: 2,
+                startDate: "2026-01-20",
+                registrationDeadline: "2026-01-06",
+                icon: "fab fa-python",
+                colorClass: "python-course",
+                punchLine: "Master Python for web and data science"
+            },
+            {
+                id: 3,
+                courseId: 3,
+                startDate: "2026-01-18",
+                registrationDeadline: "2026-01-06",
+                icon: "fas fa-chart-bar",
+                colorClass: "data-analytics-course",
+                punchLine: "Become a data-driven decision maker"
+            },
+            {
+                id: 4,
+                courseId: 5,
+                startDate: "2026-02-01",
+                registrationDeadline: "2026-01-25",
+                icon: "fas fa-sitemap",
+                colorClass: "dsa-python-course",
+                punchLine: "Ace technical interviews with Python"
+            },
+            {
+                id: 5,
+                courseId: 6,
+                startDate: "2026-02-05",
+                registrationDeadline: "2026-01-28",
+                icon: "fas fa-project-diagram",
+                colorClass: "dsa-java-course",
+                punchLine: "Master algorithms for top tech companies"
+            }
+        ];
+
+        const services = [
+            {
+                id: 1,
+                title: "Website Development",
+                description: "Custom, responsive websites and web applications built with modern frameworks. From business sites to complex web platforms with e-commerce capabilities.",
+                icon: "fas fa-globe",
+                tech: ["React.js", "Next.js", "Vue.js", "Node.js", "Tailwind CSS", "WordPress"]
+            },
+            {
+                id: 2,
+                title: "Mobile App Development",
+                description: "Cross-platform and native mobile applications for iOS and Android. Engaging user experiences with robust backend integration and cloud services.",
+                icon: "fas fa-mobile-alt",
+                tech: ["React Native", "Flutter", "iOS Swift", "Android Kotlin", "Firebase", "REST APIs"]
+            },
+            {
+                id: 3,
+                title: "iOS App Development",
+                description: "Native iOS applications with Swift and SwiftUI. Premium user experiences optimized for Apple's ecosystem and App Store guidelines.",
+                icon: "fab fa-apple",
+                tech: ["Swift 5", "SwiftUI", "UIKit", "Core Data", "Combine", "TestFlight"]
+            },
+            {
+                id: 4,
+                title: "Desktop Application Development",
+                description: "Cross-platform desktop applications for Windows, macOS, and Linux. Native performance with modern frameworks and offline capabilities.",
+                icon: "fas fa-desktop",
+                tech: ["Electron.js", ".NET MAUI", "JavaFX", "Python Tkinter", "C#", "WPF"]
+            },
+            {
+                id: 5,
+                title: "Web Applications",
+                description: "Scalable, feature-rich web applications with modern architectures. From SaaS platforms to enterprise management systems and CRM solutions.",
+                icon: "fas fa-layer-group",
+                tech: ["Microservices", "Docker", "Kubernetes", "AWS/Azure", "GraphQL", "WebSockets"]
+            },
+            {
+                id: 6,
+                title: "Agentic AI Solutions",
+                description: "Implement autonomous AI agents for business automation, customer service, data analysis, and intelligent decision-making systems.",
+                icon: "fas fa-robot",
+                tech: ["LLM Integration", "RAG Systems", "AutoML", "AI Agents", "Custom Chatbots", "Workflow Automation"]
+            },
+            {
+                id: 7,
+                title: "Data Analytics Dashboards",
+                description: "Interactive business intelligence dashboards and reporting tools that transform complex data into actionable insights for decision-makers.",
+                icon: "fas fa-chart-line",
+                tech: ["Tableau", "Power BI", "Looker", "Python Dash", "D3.js", "SQL", "Apache Superset"]
+            },
+            {
+                id: 8,
+                title: "Data Engineering Projects",
+                description: "End-to-end data pipelines and infrastructure on cloud platforms. ETL processes, data warehouses, and real-time streaming solutions.",
+                icon: "fas fa-database",
+                tech: ["AWS Glue", "Azure Data Factory", "GCP Dataflow", "Apache Spark", "Snowflake", "Airflow", "Kafka"]
+            },
+            {
+                id: 9,
+                title: "DevOps Implementation",
+                description: "Complete DevOps pipeline setup with CI/CD, infrastructure as code, monitoring, and automation for efficient software delivery.",
+                icon: "fas fa-cogs",
+                tech: ["Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "Ansible", "Prometheus", "Grafana"]
+            }
+        ];
+
+        // Core Functions
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric',
+                year: 'numeric'
+            });
+        }
+
+        function calculateDaysLeft(deadlineString) {
+            const deadline = new Date(deadlineString);
+            const now = new Date();
+            const difference = deadline - now;
+            return Math.max(0, Math.ceil(difference / (1000 * 60 * 60 * 24)));
+        }
+
+        function getStatusMessage(daysLeft, punchLine) {
+            if (daysLeft > 30) return `Early bird registration open! ${punchLine}`;
+            if (daysLeft > 7) return `Limited seats available! ${punchLine}`;
+            if (daysLeft > 0) return `Hurry! Registration closing soon. ${punchLine}`;
+            return "Next batch starting soon";
+        }
+
+        function showNotification(message, type = 'success') {
+            const notification = document.getElementById('notification');
+            const notificationText = document.getElementById('notificationText');
+            
+            notificationText.textContent = message;
+            notification.className = `notification ${type}`;
+            notification.classList.add('show');
+            
+            setTimeout(() => notification.classList.remove('show'), 6000);
+        }
+
+        // DOM Elements
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+        const menuIcon = document.getElementById('menuIcon');
+
+        // Initialize Mobile Menu
+        function initMobileMenu() {
+            mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+            mobileMenuOverlay.addEventListener('click', closeMobileMenu);
+            
+            // Close menu when clicking on links
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', closeMobileMenu);
+            });
+            
+            // Close menu with Escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+                    closeMobileMenu();
+                }
+            });
+        }
+
+        function toggleMobileMenu() {
+            const isExpanded = mobileMenu.classList.toggle('active');
+            mobileMenuOverlay.classList.toggle('active');
+            mobileMenuBtn.setAttribute('aria-expanded', isExpanded);
+            mobileMenu.setAttribute('aria-hidden', !isExpanded);
+            menuIcon.className = isExpanded ? 'fas fa-times' : 'fas fa-bars';
+            document.body.style.overflow = isExpanded ? 'hidden' : '';
+        }
+
+        function closeMobileMenu() {
+            mobileMenu.classList.remove('active');
+            mobileMenuOverlay.classList.remove('active');
+            mobileMenuBtn.setAttribute('aria-expanded', 'false');
+            mobileMenu.setAttribute('aria-hidden', 'true');
+            menuIcon.className = 'fas fa-bars';
+            document.body.style.overflow = '';
+        }
+
+        // Render Functions
+        function renderCourses() {
+            const container = document.getElementById('coursesGrid');
+            container.innerHTML = courses.map((course, index) => `
+                <article class="course-card" style="animation-delay: ${index * 100}ms" itemscope itemtype="https://schema.org/Course">
+                    <div class="course-header">
+                        <h3 itemprop="name">${course.title}</h3>
+                    </div>
+                    <div class="course-body">
+                        <p itemprop="description">${course.description}</p>
+                        <div class="tech-stack" aria-label="Technologies covered">
+                            ${course.tech.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                        </div>
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        function renderRegistrationBars() {
+            const container = document.getElementById('registrationBars');
+            
+            if (courseRegistrations.length === 0) {
+                container.innerHTML = '<div class="registration-bar"><p>No upcoming courses scheduled. Check back soon!</p></div>';
+                return;
+            }
+            
+            container.innerHTML = courseRegistrations.map((reg, index) => {
+                const course = courses.find(c => c.id === reg.courseId);
+                const daysLeft = calculateDaysLeft(reg.registrationDeadline);
+                const status = getStatusMessage(daysLeft, reg.punchLine);
+                
+                return `
+                    <div class="registration-bar" style="animation-delay: ${index * 100}ms">
+                        <div class="course-info">
+                            <div class="course-icon" style="background: ${reg.colorClass.includes('java') ? 'linear-gradient(135deg, #FF6D1F, #FF8B4A)' : 'linear-gradient(135deg, #222222, #444444)'}">
+                                <i class="${reg.icon}"></i>
+                            </div>
+                            <div class="course-details">
+                                <h4>${course.title}</h4>
+                                <p>${status}</p>
+                            </div>
+                        </div>
+                        <div class="course-meta">
+                            <div class="start-date">
+                                <span class="meta-label">Start Date</span>
+                                <span class="meta-value">${formatDate(reg.startDate)}</span>
+                            </div>
+                            ${daysLeft > 0 ? `
+                            <div class="days-left" id="daysLeft-${reg.id}">
+                                <span class="meta-label">Days Left</span>
+                                <span class="meta-value" id="daysCount-${reg.id}">${daysLeft}</span>
+                            </div>
+                            ` : ''}
+                        </div>
+                        <div class="registration-action">
+                            ${daysLeft > 0 ? 
+                            `<button class="btn btn-warning register-btn" data-course-id="${reg.courseId}" aria-label="Register for ${course.title}">Register Now <i class="fas fa-arrow-right"></i></button>` :
+                            `<button class="btn btn-disabled" disabled aria-label="Registration closed for ${course.title}">Registration Closed</button>`
+                            }
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            // Add event listeners
+            document.querySelectorAll('.register-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const courseId = e.target.dataset.courseId;
+                    const course = courses.find(c => c.id === parseInt(courseId));
+                    showNotification(`Redirecting to registration for ${course.title}...`, 'success');
+                    window.location.href = 'https://google.com';
+                });
+            });
+        }
+
+        function renderServices() {
+            const container = document.getElementById('servicesGrid');
+            container.innerHTML = services.map((service, index) => `
+                <article class="service-card" style="animation-delay: ${index * 100}ms" itemscope itemtype="https://schema.org/Service">
+                    <div class="service-icon">
+                        <i class="${service.icon}"></i>
+                    </div>
+                    <h3 itemprop="name">${service.title}</h3>
+                    <p itemprop="description">${service.description}</p>
+                    <div class="tech-stack" aria-label="Technologies used">
+                        ${service.tech.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        function updateCountdowns() {
+            courseRegistrations.forEach(reg => {
+                const daysLeft = calculateDaysLeft(reg.registrationDeadline);
+                const daysElement = document.getElementById(`daysCount-${reg.id}`);
+                if (daysElement) {
+                    daysElement.textContent = daysLeft;
+                    
+                    if (daysLeft === 0) {
+                        const container = document.getElementById(`daysLeft-${reg.id}`);
+                        if (container) container.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+        // Initialize EmailJS
+        function initEmailJS() {
+            emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY);
+            
+            const contactForm = document.getElementById('contactForm');
+            contactForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const submitBtn = contactForm.querySelector('button[type="submit"]');
+                const originalText = submitBtn.innerHTML;
+                
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+                submitBtn.disabled = true;
+                
+                const serviceNames = {
+                    'training': 'Tech Training & Courses',
+                    'web-dev': 'Website Development',
+                    'mobile-dev': 'Mobile App Development',
+                    'desktop': 'Desktop Applications',
+                    'ai': 'Agentic AI Solutions',
+                    'analytics': 'Data Analytics Dashboards',
+                    'data-eng': 'Data Engineering Projects',
+                    'devops': 'DevOps Implementation',
+                    'other': 'General Inquiry'
+                };
+                
+                const templateParams = {
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    service: serviceNames[document.getElementById('service').value] || 'General Inquiry',
+                    message: document.getElementById('message').value,
+                    timestamp: new Date().toLocaleString()
+                };
+                
+                try {
+                    await emailjs.send(
+                        EMAILJS_CONFIG.SERVICE_ID,
+                        EMAILJS_CONFIG.TEMPLATE_ID,
+                        templateParams
+                    );
+                    
+                    showNotification('Thank you! Your message has been sent successfully. We\'ll contact you within 24 hours.', 'success');
+                    contactForm.reset();
+                } catch (error) {
+                    console.error('Email error:', error);
+                    showNotification('Sorry, there was an error sending your message. Please try again or contact us directly.', 'error');
+                } finally {
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                }
+            });
+        }
+
+        // Smooth Scrolling
+        function initSmoothScroll() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href === '#') return;
+                    
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        window.scrollTo({
+                            top: target.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        }
+
+        // Initialize Everything
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set current year
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+            
+            // Initialize components
+            initMobileMenu();
+            initEmailJS();
+            initSmoothScroll();
+            
+            // Render content
+            renderCourses();
+            renderRegistrationBars();
+            renderServices();
+            
+            // Start countdown updates
+            updateCountdowns();
+            setInterval(updateCountdowns, 60000); // Update every minute
+        });
+
+        // Developer Console Functions
+        function toggleDevConsole() {
+            const content = document.getElementById('devConsoleContent');
+            const toggleIcon = document.getElementById('devConsoleToggle');
+            const isExpanded = content.style.display === 'block';
+            
+            content.style.display = isExpanded ? 'none' : 'block';
+            toggleIcon.className = isExpanded ? 'fas fa-chevron-up' : 'fas fa-chevron-down';
+        }
+    </script>
+</body>
+</html>
